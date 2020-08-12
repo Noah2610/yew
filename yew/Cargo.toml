@@ -56,7 +56,6 @@ features = [
   "BinaryType",
   "Blob",
   "BlobPropertyBag",
-  "console",
   "DedicatedWorkerGlobalScope",
   "Document",
   "DomTokenList",
@@ -70,8 +69,9 @@ features = [
   "FileReader",
   "FocusEvent",
   "Headers",
-  "HtmlElement",
   "HtmlButtonElement",
+  "HtmlCanvasElement",
+  "HtmlElement",
   "HtmlInputElement",
   "HtmlSelectElement",
   "HtmlTextAreaElement",
@@ -104,6 +104,7 @@ features = [
   "Worker",
   "WorkerGlobalScope",
   "WorkerOptions",
+  "console",
 ]
 
 # Changes here must be reflected in `build.rs`
